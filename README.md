@@ -39,6 +39,6 @@ Preprocessing of the documents included following steps:
 
 15)Wordcloud was created of words that appear in the corpus more than 800 times.
 
-The overall results were not that surprising though there were some differences between the compared corpuses.
+The overall results were not that surprising, though there were some minor differences between the compared corpuses. Perhaps the content would have yielded different results if I had removed frequently used words, such as the state, government etc. from the corpus. Stemming of words was clearly not enough but I should have lemmatised the words as well. I tried to go beyond word clouds and counting frequencies but more advanced plots like correlation plots did not quite work as planned. Next time I should reserve more time for this. 
                       
 
