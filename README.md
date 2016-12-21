@@ -3,15 +3,19 @@ Final project for the Introduction to methods in digital humanities course (Univ
 
 This project is the final project for the Introduction to methods in digital humanities course. The course ran at the University of Helsinki in autumn 2016.
 
-For the final assignment I created a corpus consisting of 28 strategy documents by different Finnish cabinets (Lipponen I cabinet 1995 - Sipilä 2015). 
+For the final assignment, I created a corpus consisting of 28 strategy documents by different Finnish cabinets (Lipponen I cabinet 1995 - Sipilä 2015). The object of the final project was to observe word frequences in all documents and then see if different words were emphasised during one or two particular cabinet.
 
 The preprocessing of data was done with RStudio and mainly conducted following the steps provided by Graham Williams in http://onepager.togaware.com/TextMiningO.pdf.
 
 Preprocessing of the documents included following steps:
 1)The recommended packages were downloaded
+
 2)PDFs were converted to text files
+
 3)Text files were used for creating the corpus
+
 4)The following characters were replaced with space: /@|
+
 5)Upper case letters were changed to lower case
 6)Numbers were removed
 7)Punctuation was replaced with space
